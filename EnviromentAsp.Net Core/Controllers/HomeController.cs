@@ -12,9 +12,11 @@ namespace EnviromentAsp.Net_Core.Controllers
         {
             _logger = logger;
         }
-
+        //www.alishub.com (Development oder Production)
+        //www.alpha.alishub.com (Alpha-Umgebung)
         public IActionResult Index()
         {
+            //throw new Exception("Es gibt Fehler...");
             return View();
         }
 
